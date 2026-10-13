@@ -1,0 +1,82 @@
+# OSTEP OS Lab check result
+format: 2
+github_user: taotao050626-eng
+codespaces: true
+codespace_name: scaling-goldfish-p7w6ww96p7v9f9qj
+github_repository: taotao050626-eng/ostep-codespace-lab
+origin: https://github.com/taotao050626-eng/ostep-codespace-lab
+repo_head: 7ffa6e20c92df9274a7ef039b1c3be6c160b5069
+homework_commit: afb36ca
+check_sh_sha256: 1ff6ace36d26d7a0e1e97453028d17e96c8bca4301f17ffcf4530c768c4c62f2
+kernel: 6.8.0-1064-azure
+os: Ubuntu 24.04.5 LTS
+cpus: 2
+boot_id: e4c91aaa-4d23-431d-8c4d-b171de66a788
+run_id: 1e557db3-208f-4758-a1a1-c68c7786eabf
+started_utc: 2026-10-13T14:52:23Z
+finished_utc: 2026-10-13T14:52:46Z
+duration_ms: 22492
+result: PASS 61 / FAIL 0
+items:
+  PASS	Ubuntu 24.04	5
+  PASS	python 명령 = Python 3	6
+  PASS	tkinter	861
+  PASS	gcc 설치	4
+  PASS	make 설치	4
+  PASS	gdb 설치	4
+  PASS	strace 설치	6
+  PASS	ltrace 설치	4
+  PASS	valgrind 설치	4
+  PASS	vmstat 설치	6
+  PASS	gdb로 프로그램 실행	3385
+  PASS	strace 권한	191
+  PASS	저장소 폴더	3
+  PASS	origin이 학생 fork	7
+  PASS	ext/ostep-homework	3
+  PASS	ext/ostep-code	3
+  PASS	homework 버전 afb36ca	10
+  PASS	ext/는 git 추적 제외	6
+  PASS	cpu-api/fork.py	38
+  PASS	cpu-api/generator.py	4292
+  PASS	cpu-intro/process-run.py	45
+  PASS	cpu-sched-lottery/lottery.py	41
+  PASS	cpu-sched-mlfq/mlfq.py	43
+  PASS	cpu-sched-multi/multi.py	38
+  PASS	cpu-sched/scheduler.py	35
+  PASS	dist-afs/afs.py	47
+  PASS	file-devices/process-run.py	42
+  PASS	file-disks/disk-precise.py	125
+  PASS	file-disks/disk.py	48
+  PASS	file-ffs/ffs.py	40
+  PASS	file-implementation/vsfs.py	38
+  PASS	file-integrity/checksum.py	34
+  PASS	file-journaling/fsck.py	39
+  PASS	file-lfs/lfs.py	42
+  PASS	file-raid/raid.py	36
+  PASS	file-ssd/ssd.py	38
+  PASS	threads-intro/x86.py	59
+  PASS	threads-locks/x86.py	60
+  PASS	vm-beyondphys-policy/paging-policy.py	37
+  PASS	vm-freespace/malloc.py	42
+  PASS	vm-mechanism/relocation.py	34
+  PASS	vm-paging/paging-linear-translate.py	37
+  PASS	vm-segmentation/segmentation.py	36
+  PASS	vm-smalltables/paging-multilevel-translate.py	68
+  PASS	homework/threads-api	343
+  PASS	homework/threads-cv	331
+  PASS	homework/threads-bugs	524
+  PASS	homework/vm-beyondphys	63
+  PASS	code/intro	206
+  PASS	code/cpu-api	201
+  PASS	code/vm-intro	48
+  PASS	code/threads-intro	118
+  PASS	code/threads-api	155
+  PASS	code/threads-cv	389
+  PASS	code/threads-sema	599
+  PASS	code/threads-bugs	291
+  PASS	code/dist-intro	536
+  PASS	helgrind가 경쟁 조건 탐지	800
+  PASS	mem 실행 (3초)	3006
+  PASS	vmstat 실행	1008
+  PASS	code/intro/cpu 실행	3006
+result_sha256: 10b44795f7fa59720300d0223fe25760613226d41d4247c23624733f22af92fc
